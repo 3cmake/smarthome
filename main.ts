@@ -1,36 +1,6 @@
 //% color="#8FBC8F" weight=21 icon="\uf001"
 namespace CrocoKit {
 
-    let key_state = 0;
-    let old_key = 0;
-    let button_state = 0;
-    let old_button = 0;
-    let key_state_1 = 0;
-    let old_key_1 = 0;
-
-    export enum enMusic {
-        dadadum = 0,
-        entertainer,
-        prelude,
-        ode,
-        nyan,
-        ringtone,
-        funk,
-        blues,
-        birthday,
-        wedding,
-        funereal,
-        punchline,
-        baddy,
-        chase,
-        ba_ding,
-        wawawawaa,
-        jump_up,
-        jump_down,
-        power_up,
-        power_down
-    }
-
     export enum touch_pin {
         None = 0,
         P2 = 2,
@@ -41,27 +11,6 @@ namespace CrocoKit {
         P13 = 13,
         P14 = 14,
         P15 = 15
-    }
-
-    export enum touch {
-        //% blockId="None" block="None"
-        None = 0x0000,
-        //% blockId="C" block="C"
-        C = 0x0001,
-        //% blockId="D" block="D"
-        D = 0x0002,
-        //% blockId="E" block="E"
-        E = 0x0004,
-        //% blockId="F" block="F"
-        F = 0x0008,
-        //% blockId="G" block="G"
-        G = 0x0010,
-        //% blockId="A" block="A"
-        A = 0x0020,
-        //% blockId="B" block="B"
-        B = 0x0040,
-        //% blockId="CH" block="CH"
-        CH = 0x0080,
     }
 
     //% blockId=CrocoKit_KeyBoard_Touch block="KeyBoard Touch Return|value %value"
