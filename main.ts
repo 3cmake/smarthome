@@ -95,8 +95,6 @@ namespace SmartHome {
     }
 
     //% blockId=smarthomeMusic block="Music|%index"
-    //% weight=98
-    //% blockGap=10
 
     export function Music(index: enMusic): void {
         switch (index) {
