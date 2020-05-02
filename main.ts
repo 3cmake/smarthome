@@ -15,7 +15,7 @@ namespace SmartHome {
 
     export enum enMusic {
 
-        Jinglebell = 1,
+        JingleBell = 1,
         Chang = 2,
         JaneNoonBow =3,
         Wipwup = 4
@@ -100,7 +100,7 @@ namespace SmartHome {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music(index: enMusic): void {
         switch (index) {
-            case enMusic.Jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e", "", "", "", "f", "f", "f", "", "e", "e", "e", "", "e", "d", "d", "e", "d", "", "g"], MelodyOptions.Once); break;
+            case enMusic.JingleBell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e", "", "", "", "f", "f", "f", "", "e", "e", "e", "", "e", "d", "d", "e", "d", "", "g"], MelodyOptions.Once); break;
             case enMusic.Chang: music.beginMelody(["g", "g", "g", "g", "g", "", "", "g", "e", "d", "g", "g", "c", "", "", "g", "e", "d", "e", "c", "d:5", "c:3", "g3:4", "a3", "c4", "a3:3", "g3:4", "c4:6", "c:3", "g3:4", "a3", "c4", "a3:3", "g3:4", "c4:6", "g:3", "a:4", "g:3", "e:7", "d:7", "c:10", ""], MelodyOptions.Once); break;
             case enMusic.JaneNoonBow: music.beginMelody(["ab:10", "ab:4", "", "", "", "ab:10", "ab:4", "", "", "", "ab:6", "c5:6", "bb4", "bb:3", "ab", "bb", "bb:1", "bb:2", "f:3", "eb", "f:7"], MelodyOptions.Once); break;
             case enMusic.Wipwup: music.beginMelody(["c5:6", "bb4:5", "d5:3", ":2", "d5:3", ":2", "d5:3", ":2", "d5:3", ":2", "d5:3", ":7", "c5:5", "d5:5", "bb4:3", ":2", "bb4:3", ":2", "bb4:3", ":2", "bb4:3", ":2", "bb4:3", ":2", "bb4:5", "bb4:5", "g4:5", "bb4:5", "g4:5", "bb4:8", ":6", "bb4:3", "bb4:2", "c5:5", "bb4:5", "c5:3", ":2", "c5:3", ":2", "c5:3", ":2", "c5:3", ":2", "c5:3"], MelodyOptions.Once); break;
