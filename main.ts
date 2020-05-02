@@ -90,7 +90,6 @@ namespace SmartHome {
     //% weight=95
     //% blockGap=20 
     //% color="#8FBC8F"
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Songs(): boolean {
         music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once)
         return false;
