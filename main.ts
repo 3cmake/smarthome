@@ -89,7 +89,6 @@ namespace SmartHome {
     //% blockId=CrocoKit_KeyBoard_Touch block="Songs"
     //% weight=95
     //% blockGap=20 
-    //% color="#8FBC8F"
     export function Songs(): boolean {
         music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once)
         return false;
