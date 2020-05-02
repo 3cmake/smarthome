@@ -39,7 +39,7 @@ namespace SmartHome {
         CH = 0x0080,
     }
 
-    //% blockId=CrocoKit_KeyBoard_Touch block="KeyBoard Touch Return|value %value"
+    //% blockId=smarthomeTouchkey block="KeyBoard Touch Return|value %value"
     //% weight=94
     //% blockGap=20 
     //% color="#8FBC8F"
@@ -91,7 +91,7 @@ namespace SmartHome {
         return false;
     }
 
-    //% blockId=CrocoKit_KeyBoard_Touch block="Songs"
+    //% blockId=smarthomeMusic block="Songs"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
