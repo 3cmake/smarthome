@@ -87,11 +87,13 @@ namespace SmartHome {
     }
 
     //% blockId=CrocoKit_KeyBoard_Touch block="Songs"
-    //% weight=95
-    //% blockGap=20 
-    export function Songs(): boolean {
-        music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once)
-        return false;
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+    export function Music(index: enMusic): void {
+        switch (index) {
+            case music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once) break;
+        }
     }
 
 
