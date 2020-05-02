@@ -15,7 +15,8 @@ namespace SmartHome {
 
     export enum enMusic {
 
-        jinglebell = 1
+        jinglebell = 1,
+        nation = 2
     }
 
     export enum touch {
@@ -97,7 +98,8 @@ namespace SmartHome {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music(index: enMusic): void {
         switch (index) {
-            case enMusic.jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;            
+            case enMusic.jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
+            case enMusic.nation: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;            
         }
     }
 
