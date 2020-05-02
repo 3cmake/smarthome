@@ -92,7 +92,7 @@ namespace SmartHome {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music(index: enMusic): void {
         switch (index) {
-            case music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once) break;
+            case music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
         }
     }
 
