@@ -16,7 +16,7 @@ namespace SmartHome {
     export enum enMusic {
 
         jinglebell = 1,
-        nation = 2
+        chang = 2
     }
 
     export enum touch {
@@ -98,8 +98,8 @@ namespace SmartHome {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music(index: enMusic): void {
         switch (index) {
-            case enMusic.jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
-            case enMusic.nation: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
+            case enMusic.jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e", "", "", "", "f", "f", "f", "", "e", "e", "e", "", "e", "d", "d", "e", "d", "", "g"], MelodyOptions.Once); break;
+            case enMusic.chang: music.beginMelody(["g", "g", "g", "g", "g", "", "", "g", "e", "d", "g", "g", "c", "", "", "g", "e", "d", "e", "c", "d:5", "c:3", "g3:4", "a3", "c4", "a3:3", "g3:4", "c4:6", "c:3", "g3:4", "a3", "c4", "a3:3", "g3:4", "c4:6", "g:3", "a:4", "g:3", "e:7", "d:7", "c:10", ""], MelodyOptions.Once); break;
         }
     }
 
