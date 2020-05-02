@@ -17,7 +17,7 @@ namespace SmartHome {
 
         JingleBell = 1,
         Chang = 2,
-        JaneNoonBow =3,
+        JaneNoonBow = 3,
         Wipwup = 4
     }
 
@@ -97,7 +97,7 @@ namespace SmartHome {
     //% blockId=smarthomeMusic block="Music|%index"
     //% weight=98
     //% blockGap=10
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+
     export function Music(index: enMusic): void {
         switch (index) {
             case enMusic.JingleBell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e", "", "", "", "f", "f", "f", "", "e", "e", "e", "", "e", "d", "d", "e", "d", "", "g"], MelodyOptions.Once); break;
