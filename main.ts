@@ -92,14 +92,14 @@ namespace SmartHome {
         return false;
     }
 
-    //% blockId=smarthomeMusic block="Songs"
+    //% blockId=smarthomeMusic block="Music|%index"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music(index: enMusic): void {
         switch (index) {
             case enMusic.jinglebell: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
-            case enMusic.nation: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;            
+            case enMusic.nation: music.beginMelody(["e", "e", "e", "", "e", "e", "e", "", "e", "g", "c", "d", "e"], MelodyOptions.Once); break;
         }
     }
 
